@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="A7K9T2ZQ4M1XG8P5C3RND6L0YVBEH.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:A7K9T2ZQ4M1XG8P5C3RND6L0YVBEH"
+    Shell.FlyoutBehavior="Disabled"
+    Title="A7K9T2ZQ4M1XG8P5C3RND6L0YVBEH">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
